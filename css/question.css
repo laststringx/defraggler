@@ -1,0 +1,50 @@
+ #question_css
+	{
+	float:right;
+	position:absolute;
+	top:80px;left:650px;
+	border:1px solid black;
+	padding:30px;
+	margin-right:20px;
+	border-radius:12px;
+	}
+  	#box{
+	border:1px solid black;
+	margin:5px;
+	width:600px;
+	border-radius:12px;
+	
+	padding-left:9px;
+    padding-bottom:2px;
+	
+	}
+	body
+	{
+	paddin-top:-30px;
+	
+	}
+	
+	/* Don't change these options */
+	#movableNode{
+		position:absolute;
+	}
+	
+	#arrDestInditcator{
+		position:absolute;
+		display:none;
+		width:100px;
+	}
+	/* End options that shouldn't be changed */
+
+	
+	#arrangableNodes,#movableNode ul{
+		padding-left:0px;
+		margin-left:0px;
+		margin-top:0px;
+		padding-top:0px;
+	}
+	
+	#arrangableNodes li,#movableNode li{
+		list-style-type:none;
+		cursor:default;
+	}
